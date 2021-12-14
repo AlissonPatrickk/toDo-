@@ -21,7 +21,6 @@
           id="description"
           v-model="form.description"
           type="text"
-          placeholder="Ex: preciso levar o carro para lavar"
           required
           autocomplete="off"
         ></b-form-textarea>
