@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import List from '../views/List.vue'
-import Form from '../views/Form.vue' 
+import Form from '../views/Form.vue'
 
 Vue.use(VueRouter)
 
@@ -15,7 +15,7 @@ const routes = [
     path: '/form',
     name: 'form',
     component: Form
-  }
+  },
 ]
 
 const router = new VueRouter({
